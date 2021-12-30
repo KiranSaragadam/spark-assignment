@@ -44,7 +44,7 @@ we can pass path with db_location argument to save the database data in the path
 
 <pre>table.save_table('db_name', 'table_name', 'db_location')</pre>
 
-if the database is in create state and table with same name present in the database then this save_table throws error table data is already present in the directry instead of dropping the database or table data i created clean function to clean the db data/table data using shutil library of python
+if the database is in create state and table with same name present in the database then this save_table throws error table data is already present in the database in the location instead of dropping the database or table data i created clean function to clean the db data/table data using shutil library of python
 
 clean function takes 3 values all/'db'/'table'
 
