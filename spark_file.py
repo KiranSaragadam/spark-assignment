@@ -88,7 +88,7 @@ class start_process():
         schema of output table
         schema
         |- name -- string
-        |- no_of_products -- bigint
+        |- no_of_products -- long
         '''
         from pyspark.sql.functions import count
         self.df1 = (self.df0
